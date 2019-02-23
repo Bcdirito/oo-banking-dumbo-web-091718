@@ -1,13 +1,13 @@
 require "pry"
 class Transfer
   # your code here
-  
+  attr_reader :sender
   
   @@all = []
   
-  def initialize(to, from, amount)
+  def initialize(to, sender, amount)
     @to = to
-    @from = from
+    @sender = sender
     @amount = amount
     @@all << self
   end
