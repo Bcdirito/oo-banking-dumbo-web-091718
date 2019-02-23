@@ -22,5 +22,6 @@ class Transfer
     @sender.balance -= @amount
     @receiver.balance += @amount
     @status = "complete"
+    self.delete
   end
 end
