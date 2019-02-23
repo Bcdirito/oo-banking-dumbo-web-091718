@@ -3,7 +3,8 @@ class Transfer
   # your code here
   
   
-  @@all << self
+  @@all = []
+  
   def initialize(to, from, amount)
     @to = to
     @from = from
