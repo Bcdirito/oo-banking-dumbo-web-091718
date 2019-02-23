@@ -13,4 +13,8 @@ class Transfer
     @status = "pending"
     @@all << self
   end
+  
+  def valid?
+    
+  end
 end
