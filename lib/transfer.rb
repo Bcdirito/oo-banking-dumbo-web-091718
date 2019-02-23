@@ -2,6 +2,7 @@ require "pry"
 class Transfer
   # your code here
   attr_reader :sender, :receiver
+  attr_accessor :status
   
   @@all = []
   
@@ -9,6 +10,7 @@ class Transfer
     @sender = sender
     @receiver = receiver
     @amount = amount
+    @status = pending
     @@all << self
   end
 end
