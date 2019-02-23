@@ -1,7 +1,7 @@
 require "pry"
 class Transfer
   # your code here
-  attr_reader :sender, :receiver
+  attr_reader :sender, :receiver, :amount
   attr_accessor :status
   
   @@all = []
