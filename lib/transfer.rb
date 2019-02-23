@@ -15,6 +15,6 @@ class Transfer
   end
   
   def valid?
-    
+    sender.s
   end
 end
