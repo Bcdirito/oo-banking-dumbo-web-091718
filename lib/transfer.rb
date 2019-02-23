@@ -10,7 +10,7 @@ class Transfer
     @sender = sender
     @receiver = receiver
     @amount = amount
-    @status = pending
+    @status = "pending"
     @@all << self
   end
 end
